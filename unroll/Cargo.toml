@@ -1,0 +1,10 @@
+[package]
+workspace = ".."
+name = "unroll"
+version = "0.1.0"
+authors = ["auro"]
+
+[dependencies]
+quote = "0.6.10"
+syn = "0.15.22"
+sll = { path = "../sll" }
